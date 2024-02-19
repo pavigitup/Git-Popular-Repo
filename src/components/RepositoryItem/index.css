@@ -1,0 +1,39 @@
+img {
+  width: 70%;
+  margin: 10px;
+}
+
+.li {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 40px;
+}
+.li-con {
+  width: 80%;
+}
+.name {
+  font-size: 18px;
+  padding: 5px;
+  color: brown;
+  width: 80%;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin: 2px 5px;
+}
+.stars-para {
+  display: flex;
+  padding: 5px;
+}

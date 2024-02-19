@@ -1,0 +1,40 @@
+.bg-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.popular-heading {
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 20px;
+}
+.repo-con {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.not-fetch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.fail {
+  width: 500px;
+}
+
+@media (max-width: 760px) {
+  .header {
+    width: 100%;
+  }
+}
